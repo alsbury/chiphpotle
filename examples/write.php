@@ -15,7 +15,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-require '../vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 $client = new PermissionsServiceClient('spicedb:50051', [
     'credentials' => Grpc\ChannelCredentials::createInsecure(),
