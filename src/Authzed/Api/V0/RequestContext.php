@@ -29,7 +29,7 @@ class RequestContext extends \Google\Protobuf\Internal\Message
      *     Optional. Data for populating the Message object.
      *
      *     @type string $schema
-     *     @type array<\Authzed\Api\V0\RelationTuple>|\Google\Protobuf\Internal\RepeatedField $relationships
+     *     @type \Authzed\Api\V0\RelationTuple[]|\Google\Protobuf\Internal\RepeatedField $relationships
      * }
      */
     public function __construct($data = NULL) {
@@ -70,7 +70,7 @@ class RequestContext extends \Google\Protobuf\Internal\Message
 
     /**
      * Generated from protobuf field <code>repeated .authzed.api.v0.RelationTuple relationships = 2 [json_name = "relationships"];</code>
-     * @param array<\Authzed\Api\V0\RelationTuple>|\Google\Protobuf\Internal\RepeatedField $var
+     * @param \Authzed\Api\V0\RelationTuple[]|\Google\Protobuf\Internal\RepeatedField $var
      * @return $this
      */
     public function setRelationships($var)

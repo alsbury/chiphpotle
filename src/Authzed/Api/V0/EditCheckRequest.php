@@ -29,7 +29,7 @@ class EditCheckRequest extends \Google\Protobuf\Internal\Message
      *     Optional. Data for populating the Message object.
      *
      *     @type \Authzed\Api\V0\RequestContext $context
-     *     @type array<\Authzed\Api\V0\RelationTuple>|\Google\Protobuf\Internal\RepeatedField $check_relationships
+     *     @type \Authzed\Api\V0\RelationTuple[]|\Google\Protobuf\Internal\RepeatedField $check_relationships
      * }
      */
     public function __construct($data = NULL) {
@@ -80,7 +80,7 @@ class EditCheckRequest extends \Google\Protobuf\Internal\Message
 
     /**
      * Generated from protobuf field <code>repeated .authzed.api.v0.RelationTuple check_relationships = 2 [json_name = "checkRelationships"];</code>
-     * @param array<\Authzed\Api\V0\RelationTuple>|\Google\Protobuf\Internal\RepeatedField $var
+     * @param \Authzed\Api\V0\RelationTuple[]|\Google\Protobuf\Internal\RepeatedField $var
      * @return $this
      */
     public function setCheckRelationships($var)

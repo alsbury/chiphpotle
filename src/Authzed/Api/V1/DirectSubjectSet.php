@@ -26,7 +26,7 @@ class DirectSubjectSet extends \Google\Protobuf\Internal\Message
      * @param array $data {
      *     Optional. Data for populating the Message object.
      *
-     *     @type array<\Authzed\Api\V1\SubjectReference>|\Google\Protobuf\Internal\RepeatedField $subjects
+     *     @type \Authzed\Api\V1\SubjectReference[]|\Google\Protobuf\Internal\RepeatedField $subjects
      * }
      */
     public function __construct($data = NULL) {
@@ -45,7 +45,7 @@ class DirectSubjectSet extends \Google\Protobuf\Internal\Message
 
     /**
      * Generated from protobuf field <code>repeated .authzed.api.v1.SubjectReference subjects = 1 [json_name = "subjects"];</code>
-     * @param array<\Authzed\Api\V1\SubjectReference>|\Google\Protobuf\Internal\RepeatedField $var
+     * @param \Authzed\Api\V1\SubjectReference[]|\Google\Protobuf\Internal\RepeatedField $var
      * @return $this
      */
     public function setSubjects($var)

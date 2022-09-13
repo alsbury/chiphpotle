@@ -24,7 +24,7 @@ class SubProblems extends \Google\Protobuf\Internal\Message
      * @param array $data {
      *     Optional. Data for populating the Message object.
      *
-     *     @type array<\Authzed\Api\V1\CheckDebugTrace>|\Google\Protobuf\Internal\RepeatedField $traces
+     *     @type \Authzed\Api\V1\CheckDebugTrace[]|\Google\Protobuf\Internal\RepeatedField $traces
      * }
      */
     public function __construct($data = NULL) {
@@ -43,7 +43,7 @@ class SubProblems extends \Google\Protobuf\Internal\Message
 
     /**
      * Generated from protobuf field <code>repeated .authzed.api.v1.CheckDebugTrace traces = 1 [json_name = "traces"];</code>
-     * @param array<\Authzed\Api\V1\CheckDebugTrace>|\Google\Protobuf\Internal\RepeatedField $var
+     * @param \Authzed\Api\V1\CheckDebugTrace[]|\Google\Protobuf\Internal\RepeatedField $var
      * @return $this
      */
     public function setTraces($var)

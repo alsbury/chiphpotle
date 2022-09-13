@@ -31,7 +31,7 @@ class ReadSchemaRequest extends \Google\Protobuf\Internal\Message
      * @param array $data {
      *     Optional. Data for populating the Message object.
      *
-     *     @type array<string>|\Google\Protobuf\Internal\RepeatedField $object_definitions_names
+     *     @type string[]|\Google\Protobuf\Internal\RepeatedField $object_definitions_names
      *           The list of names of the Object Definitions that are being requested.
      *           These names must be fully qualified with their namespace (e.g.
      *           myblog/post).
@@ -61,7 +61,7 @@ class ReadSchemaRequest extends \Google\Protobuf\Internal\Message
      * myblog/post).
      *
      * Generated from protobuf field <code>repeated string object_definitions_names = 1 [json_name = "objectDefinitionsNames", (.validate.rules) = {</code>
-     * @param array<string>|\Google\Protobuf\Internal\RepeatedField $var
+     * @param string[]|\Google\Protobuf\Internal\RepeatedField $var
      * @return $this
      */
     public function setObjectDefinitionsNames($var)

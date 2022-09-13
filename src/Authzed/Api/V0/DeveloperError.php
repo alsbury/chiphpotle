@@ -56,7 +56,7 @@ class DeveloperError extends \Google\Protobuf\Internal\Message
      *     @type int $column
      *     @type int $source
      *     @type int $kind
-     *     @type array<string>|\Google\Protobuf\Internal\RepeatedField $path
+     *     @type string[]|\Google\Protobuf\Internal\RepeatedField $path
      *     @type string $context
      *           context holds the context for the error. For schema issues, this will be the
      *           name of the object type. For relationship issues, the full relationship string.
@@ -188,7 +188,7 @@ class DeveloperError extends \Google\Protobuf\Internal\Message
 
     /**
      * Generated from protobuf field <code>repeated string path = 6 [json_name = "path"];</code>
-     * @param array<string>|\Google\Protobuf\Internal\RepeatedField $var
+     * @param string[]|\Google\Protobuf\Internal\RepeatedField $var
      * @return $this
      */
     public function setPath($var)

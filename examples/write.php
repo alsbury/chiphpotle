@@ -17,7 +17,7 @@ error_reporting(E_ALL);
 
 require '../vendor/autoload.php';
 
-$client = new PermissionsServiceClient('localhost:50051', [
+$client = new PermissionsServiceClient('spicedb:50051', [
     'credentials' => Grpc\ChannelCredentials::createInsecure(),
 ]);
 

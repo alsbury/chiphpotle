@@ -35,7 +35,7 @@ class ReadSchemaResponse extends \Google\Protobuf\Internal\Message
      * @param array $data {
      *     Optional. Data for populating the Message object.
      *
-     *     @type array<string>|\Google\Protobuf\Internal\RepeatedField $object_definitions
+     *     @type string[]|\Google\Protobuf\Internal\RepeatedField $object_definitions
      *           The Object Definitions that were requested.
      *     @type string $computed_definitions_revision
      *           The computed revision of the returned object definitions.
@@ -61,7 +61,7 @@ class ReadSchemaResponse extends \Google\Protobuf\Internal\Message
      * The Object Definitions that were requested.
      *
      * Generated from protobuf field <code>repeated string object_definitions = 1 [json_name = "objectDefinitions"];</code>
-     * @param array<string>|\Google\Protobuf\Internal\RepeatedField $var
+     * @param string[]|\Google\Protobuf\Internal\RepeatedField $var
      * @return $this
      */
     public function setObjectDefinitions($var)

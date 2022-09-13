@@ -46,7 +46,7 @@ class LookupSubjectsResponse extends \Google\Protobuf\Internal\Message
      *     @type string $subject_object_id
      *           subject_object_id is the Object ID of the subject found. May be a `*` if
      *           a wildcard was found.
-     *     @type array<string>|\Google\Protobuf\Internal\RepeatedField $excluded_subject_ids
+     *     @type string[]|\Google\Protobuf\Internal\RepeatedField $excluded_subject_ids
      *           excluded_subject_ids are the Object IDs of the subjects excluded. This list
      *           will only contain object IDs if `subject_object_id` is a wildcard (`*`) and
      *           will only be populated if exclusions exist from the wildcard.
@@ -136,7 +136,7 @@ class LookupSubjectsResponse extends \Google\Protobuf\Internal\Message
      * will only be populated if exclusions exist from the wildcard.
      *
      * Generated from protobuf field <code>repeated string excluded_subject_ids = 3 [json_name = "excludedSubjectIds"];</code>
-     * @param array<string>|\Google\Protobuf\Internal\RepeatedField $var
+     * @param string[]|\Google\Protobuf\Internal\RepeatedField $var
      * @return $this
      */
     public function setExcludedSubjectIds($var)

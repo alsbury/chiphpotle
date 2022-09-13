@@ -32,7 +32,7 @@ class WatchRequest extends \Google\Protobuf\Internal\Message
      * @param array $data {
      *     Optional. Data for populating the Message object.
      *
-     *     @type array<string>|\Google\Protobuf\Internal\RepeatedField $optional_object_types
+     *     @type string[]|\Google\Protobuf\Internal\RepeatedField $optional_object_types
      *     @type \Authzed\Api\V1\ZedToken $optional_start_cursor
      * }
      */
@@ -52,7 +52,7 @@ class WatchRequest extends \Google\Protobuf\Internal\Message
 
     /**
      * Generated from protobuf field <code>repeated string optional_object_types = 1 [json_name = "optionalObjectTypes", (.validate.rules) = {</code>
-     * @param array<string>|\Google\Protobuf\Internal\RepeatedField $var
+     * @param string[]|\Google\Protobuf\Internal\RepeatedField $var
      * @return $this
      */
     public function setOptionalObjectTypes($var)

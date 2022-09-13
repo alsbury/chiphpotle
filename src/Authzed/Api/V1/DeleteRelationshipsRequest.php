@@ -37,7 +37,7 @@ class DeleteRelationshipsRequest extends \Google\Protobuf\Internal\Message
      *     Optional. Data for populating the Message object.
      *
      *     @type \Authzed\Api\V1\RelationshipFilter $relationship_filter
-     *     @type array<\Authzed\Api\V1\Precondition>|\Google\Protobuf\Internal\RepeatedField $optional_preconditions
+     *     @type \Authzed\Api\V1\Precondition[]|\Google\Protobuf\Internal\RepeatedField $optional_preconditions
      *           To be bounded by configuration
      * }
      */
@@ -93,7 +93,7 @@ class DeleteRelationshipsRequest extends \Google\Protobuf\Internal\Message
      * To be bounded by configuration
      *
      * Generated from protobuf field <code>repeated .authzed.api.v1.Precondition optional_preconditions = 2 [json_name = "optionalPreconditions", (.validate.rules) = {</code>
-     * @param array<\Authzed\Api\V1\Precondition>|\Google\Protobuf\Internal\RepeatedField $var
+     * @param \Authzed\Api\V1\Precondition[]|\Google\Protobuf\Internal\RepeatedField $var
      * @return $this
      */
     public function setOptionalPreconditions($var)

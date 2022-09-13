@@ -35,7 +35,7 @@ class WriteSchemaResponse extends \Google\Protobuf\Internal\Message
      * @param array $data {
      *     Optional. Data for populating the Message object.
      *
-     *     @type array<string>|\Google\Protobuf\Internal\RepeatedField $object_definitions_names
+     *     @type string[]|\Google\Protobuf\Internal\RepeatedField $object_definitions_names
      *           The names of the Object Definitions that were written.
      *     @type string $computed_definitions_revision
      *           The computed revision of the written object definitions.
@@ -61,7 +61,7 @@ class WriteSchemaResponse extends \Google\Protobuf\Internal\Message
      * The names of the Object Definitions that were written.
      *
      * Generated from protobuf field <code>repeated string object_definitions_names = 1 [json_name = "objectDefinitionsNames"];</code>
-     * @param array<string>|\Google\Protobuf\Internal\RepeatedField $var
+     * @param string[]|\Google\Protobuf\Internal\RepeatedField $var
      * @return $this
      */
     public function setObjectDefinitionsNames($var)

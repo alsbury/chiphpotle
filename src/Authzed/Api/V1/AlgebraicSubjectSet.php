@@ -37,7 +37,7 @@ class AlgebraicSubjectSet extends \Google\Protobuf\Internal\Message
      *     Optional. Data for populating the Message object.
      *
      *     @type int $operation
-     *     @type array<\Authzed\Api\V1\PermissionRelationshipTree>|\Google\Protobuf\Internal\RepeatedField $children
+     *     @type \Authzed\Api\V1\PermissionRelationshipTree[]|\Google\Protobuf\Internal\RepeatedField $children
      * }
      */
     public function __construct($data = NULL) {
@@ -78,7 +78,7 @@ class AlgebraicSubjectSet extends \Google\Protobuf\Internal\Message
 
     /**
      * Generated from protobuf field <code>repeated .authzed.api.v1.PermissionRelationshipTree children = 2 [json_name = "children"];</code>
-     * @param array<\Authzed\Api\V1\PermissionRelationshipTree>|\Google\Protobuf\Internal\RepeatedField $var
+     * @param \Authzed\Api\V1\PermissionRelationshipTree[]|\Google\Protobuf\Internal\RepeatedField $var
      * @return $this
      */
     public function setChildren($var)

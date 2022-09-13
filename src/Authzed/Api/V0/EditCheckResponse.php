@@ -28,8 +28,8 @@ class EditCheckResponse extends \Google\Protobuf\Internal\Message
      * @param array $data {
      *     Optional. Data for populating the Message object.
      *
-     *     @type array<\Authzed\Api\V0\DeveloperError>|\Google\Protobuf\Internal\RepeatedField $request_errors
-     *     @type array<\Authzed\Api\V0\EditCheckResult>|\Google\Protobuf\Internal\RepeatedField $check_results
+     *     @type \Authzed\Api\V0\DeveloperError[]|\Google\Protobuf\Internal\RepeatedField $request_errors
+     *     @type \Authzed\Api\V0\EditCheckResult[]|\Google\Protobuf\Internal\RepeatedField $check_results
      * }
      */
     public function __construct($data = NULL) {
@@ -48,7 +48,7 @@ class EditCheckResponse extends \Google\Protobuf\Internal\Message
 
     /**
      * Generated from protobuf field <code>repeated .authzed.api.v0.DeveloperError request_errors = 1 [json_name = "requestErrors"];</code>
-     * @param array<\Authzed\Api\V0\DeveloperError>|\Google\Protobuf\Internal\RepeatedField $var
+     * @param \Authzed\Api\V0\DeveloperError[]|\Google\Protobuf\Internal\RepeatedField $var
      * @return $this
      */
     public function setRequestErrors($var)
@@ -70,7 +70,7 @@ class EditCheckResponse extends \Google\Protobuf\Internal\Message
 
     /**
      * Generated from protobuf field <code>repeated .authzed.api.v0.EditCheckResult check_results = 2 [json_name = "checkResults"];</code>
-     * @param array<\Authzed\Api\V0\EditCheckResult>|\Google\Protobuf\Internal\RepeatedField $var
+     * @param \Authzed\Api\V0\EditCheckResult[]|\Google\Protobuf\Internal\RepeatedField $var
      * @return $this
      */
     public function setCheckResults($var)

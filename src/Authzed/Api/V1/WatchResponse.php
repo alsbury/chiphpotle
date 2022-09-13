@@ -33,7 +33,7 @@ class WatchResponse extends \Google\Protobuf\Internal\Message
      * @param array $data {
      *     Optional. Data for populating the Message object.
      *
-     *     @type array<\Authzed\Api\V1\RelationshipUpdate>|\Google\Protobuf\Internal\RepeatedField $updates
+     *     @type \Authzed\Api\V1\RelationshipUpdate[]|\Google\Protobuf\Internal\RepeatedField $updates
      *     @type \Authzed\Api\V1\ZedToken $changes_through
      * }
      */
@@ -53,7 +53,7 @@ class WatchResponse extends \Google\Protobuf\Internal\Message
 
     /**
      * Generated from protobuf field <code>repeated .authzed.api.v1.RelationshipUpdate updates = 1 [json_name = "updates"];</code>
-     * @param array<\Authzed\Api\V1\RelationshipUpdate>|\Google\Protobuf\Internal\RepeatedField $var
+     * @param \Authzed\Api\V1\RelationshipUpdate[]|\Google\Protobuf\Internal\RepeatedField $var
      * @return $this
      */
     public function setUpdates($var)
